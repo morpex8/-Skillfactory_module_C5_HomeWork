@@ -1,0 +1,75 @@
+div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px
+}
+
+p {
+    margin: 10px;
+    color: white;
+}
+
+.wraper_input {
+    margin-top: 100px;
+    background-color: white;
+    color: black;
+    border: 0;
+    border-radius: 15px;
+}
+
+.fields {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+input {
+    width: 50px;
+    height: 25px;
+    margin-left: 10px;
+    border-radius: 15px;
+    text-align: center;
+    font-size: 22px;
+    transition: 1s
+}
+
+input:focus {
+    transform: scale(1.2);   
+}
+
+.btn {
+    border: none;
+    width: 300px;
+    height: 100px;
+    background-color: gray;
+    font-size: 32px;
+    transition: 0.3s;
+    border-radius: 35px
+}
+
+.btn:hover {
+    transform: scale(1.1);
+    color: silver;
+}
+
+#content {
+    flex-wrap: wrap;
+    background-color: gray;
+    border: 0;
+    border-radius: 60px;
+    min-height: 100px;
+    margin-top: 100px;
+    
+}
+
+img {
+    width: 300px;
+    border: 0;
+    border-radius: 15px
+}
+
+.card {
+    display: block;
+    text-align: center
+}
